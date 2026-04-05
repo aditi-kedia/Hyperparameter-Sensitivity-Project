@@ -92,15 +92,6 @@ Key observations from the analysis:
 * Neural networks and kernel methods show high variability
 * Larger datasets reduce performance variance
 
-## Project Structure
-
-```bash
-.
-├── notebooks/
-├── src/
-├── results/
-├── README.md
-```
 
 ## How to Run
 
