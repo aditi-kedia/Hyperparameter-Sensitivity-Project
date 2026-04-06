@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project investigates how sensitive machine learning models are to changes in hyperparameters across different datasets. Instead of focusing only on best-performing configurations, this study analyzes **performance variability**, which reflects model robustness and tuning effort.
+This project investigates how sensitive machine learning models are to changes in hyperparameters across different datasets. Instead of focusing only on best-performing configurations, this study analyses **performance variability**, which reflects model robustness and tuning effort.
 
 ## Key Idea
 
@@ -34,7 +34,7 @@ These datasets vary in size, class balance, and complexity, allowing us to study
 
   * Handling missing values
   * Encoding categorical variables
-  * Feature standardization
+  * Feature standardisation
 * Evaluation:
 
   * Cross-validation (5-fold / 10-fold)
@@ -73,7 +73,7 @@ These datasets vary in size, class balance, and complexity, allowing us to study
 
 * Highly sensitive:
 
-  * Regularization parameters (e.g., C, alpha)
+  * Regularisation parameters (e.g., C, alpha)
   * Learning rate (MLP)
 * Less sensitive:
 
@@ -92,6 +92,11 @@ Key observations from the analysis:
 * Neural networks and kernel methods show high variability
 * Larger datasets reduce performance variance
 
+## Repository Structure
+
+- `data/` – Dataset files used in experiments
+- `notebooks/` – Jupyter notebooks for each dataset
+- `Final_Report.pdf` – Detailed analysis and results
 
 ## How to Run
 
@@ -105,9 +110,9 @@ Key observations from the analysis:
 
 ## Contributors
 
-* Aditi Kedia
-* Chahat Gupta
+* Aditi Kedia (aditi-kedia)
+* Chahat Gupta (chahat0311)
 
 ## Notes
 
-This project was developed as part of a Machine Learning course and focuses on understanding robustness and tuning behavior rather than optimizing performance.
+This project was developed as part of a Principles of Machine Learning course and focuses on understanding robustness and tuning behavior rather than optimising performance.
